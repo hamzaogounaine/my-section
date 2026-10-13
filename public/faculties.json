@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fsjes-agadir",
+    "code": "FSJES Agadir",
+    "title": "كلية العلوم القانونية والاقتصادية والاجتماعية",
+    "campus": "القطب الجامعي - أكادير",
+    "badge": "جامعة ابن زهر",
+    "classes": [
+      {
+        "id": 1,
+        "name": "GESTION S3 2026/2027"
+      },
+      {
+        "id": 2,
+        "name": "ECONOMIE S3 2026/2027"
+      },
+      {
+        "id": 3,
+        "name": "GESTION S1 2026/2027"
+      },
+      {
+        "id": 4,
+        "name": "ECONOMIE S1 2026/2027"
+      }
+    ]
+  },
+  {
+    "id": "fsjes-ait-melloul",
+    "code": "FSJES Ait Melloul",
+    "title": "كلية العلوم القانونية والاقتصادية والاجتماعية",
+    "campus": "المركب الجامعي - أيت ملول",
+    "badge": "جامعة ابن زهر",
+    "classes": [
+      {
+        "id": 1,
+        "name": "GESTION S3 2026/2027"
+      },
+      {
+        "id": 2,
+        "name": "ECONOMIE S3 2026/2027"
+      },
+      {
+        "id": 3,
+        "name": "GESTION S1 2026/2027"
+      },
+      {
+        "id": 4,
+        "name": "ECONOMIE S1 2026/2027"
+      }
+    ]
+  }
+]
