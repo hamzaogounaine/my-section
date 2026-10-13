@@ -1,19 +1,24 @@
+import { notFound } from "next/navigation";
+import PageComponent from "./Component";
+import { faculties } from "@/public/faculties";
 
-import { notFound } from 'next/navigation';
-import PageComponent from './Component'
-
-const page = async ({ params }) => {
-    const { fac } = await params;
-    if (!fac) {
-        return {
-            notFound: true,
-        }
-    }
-    return (
-        <div>
-            <PageComponent fac={fac} />
-        </div>
-    )
+// 1. Tell Next.js all valid dynamic segments to generate at build time
+export async function generateStaticParams() {
+    return faculties.map((faculty) => ({
+        fac: faculty.id,
+    }));
 }
 
-export default page
+const Page = async ({ params }) => {
+    const { fac } = await params;
+
+    // 2. Call notFound() as a function, not a return object
+    const facultyExists = faculties.some((f) => f.id === fac);
+    if (!fac || !facultyExists) {
+        notFound();
+    }
+
+    return <PageComponent fac={fac} />;
+};
+
+export default Page;
