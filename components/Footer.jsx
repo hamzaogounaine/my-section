@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="container mx-auto max-w-6xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-right">
                 <div>
                     <p className="text-sm text-muted-foreground">
-                        جميع الحقوق محفوظة © {new Date().getFullYear()}{" "}
+                        جميع الحقوق محفوظة ©  2026 {" "}
                         <span className="font-semibold text-foreground">My Section</span>.
                     </p>
                 </div>
