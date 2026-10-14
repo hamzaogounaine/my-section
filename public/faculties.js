@@ -49,7 +49,90 @@ const faculties = [
                     { id: 1, section: "A", start: "AABAID", end: "ELAABBOUZ" },
                     { id: 2, section: "B", start: "ELAABBOUZI", end: "ZOURI" }
                 ]
+            },
+            {
+
+                id: 5,
+                name: "السداسي الأول : مسلك القانون العام - جذع مشترك 2026/2027",
+                boundes: [
+                    { id: 1, section: "A", start: "AABID", end: "BEN HAJJAJ" },
+                    { id: 2, section: "B", start: "BEN HAJJAJI", end: "EL MAAZI" },
+                    { id: 3, section: "C", start: "EL MAAZY", end: "KOUDAN" },
+                    { id: 4, section: "D", start: "KOUDANI", end: "ZYATI" }
+                ]
+            },
+            {
+
+                id: 6,
+                name: "السداسي الأول : مسلك القانون الخاص - جذع مشترك 2026/2027",
+                boundes: [
+                    { id: 1, section: "A", start: "AABA", end: "AGHAD" },
+                    { id: 2, section: "B", start: "AGHADI", end: "AIT LHYANE" },
+                    { id: 3, section: "C", start: "AIT LHYANI", end: "AMALLAZ" },
+                    { id: 4, section: "D", start: "AMALLAZI", end: "ATTAR" },
+                    { id: 5, section: "E", start: "ATTARI", end: "BASSIM" },
+                    { id: 6, section: "F", start: "BASSIMI", end: "BHIJA" },
+                    { id: 7, section: "G", start: "BHIJI", end: "BOULAK" },
+                    { id: 8, section: "H", start: "BOULAKI", end: "CHAKRI" },
+                    { id: 9, section: "I", start: "CHAKRY", end: "EL AALLALI" },
+                    { id: 10, section: "J", start: "EL AALLALY", end: "EL HOUSSAINI" },
+                    { id: 11, section: "K", start: "EL HOUSSAINY", end: "ELBOAZZAOUI" },
+                    { id: 12, section: "L", start: "ELBOAZZAOUY", end: "ERRASSIFI" },
+                    { id: 13, section: "M", start: "ERRASSIFY", end: "HABAD" },
+                    { id: 14, section: "N", start: "HABADI", end: "IDLAHCEN" },
+                    { id: 15, section: "O", start: "IDLAHCENE", end: "KHALIFA" },
+                    { id: 16, section: "P", start: "KHALIFI", end: "LOUHOU" },
+                    { id: 17, section: "Q", start: "LOUHOUI", end: "NKHILI" },
+                    { id: 18, section: "R", start: "NKHILY", end: "OUMLOUL" },
+                    { id: 19, section: "S", start: "OUMLOULI", end: "SIADI" },
+                    { id: 20, section: "T", start: "SIADY", end: "ZYOUGUAY" },
+
+                ]
+            },
+            {
+
+                id: 7,
+                name: "السداسي الثالث : مسلك القانون العام - جذع مشترك 2026/2027",
+                boundes: [
+                    { id: 1, section: "A", start: "AABID", end: "BELLATI" },
+                    { id: 2, section: "B", start: "BELLATY", end: "EL KARZABI" },
+                    { id: 3, section: "C", start: "EL KARZABY", end: "KERRAMI" },
+                    { id: 4, section: "D", start: "KERRAMY", end: "ZOUINE" }
+                ]
+            },
+            {
+
+                id: 8,
+                name: "السداسي الثالث : مسلك القانون الخاص - جذع مشترك 2026/2027",
+                boundes: [
+
+                    { id: 1, section: "A", start: "AABACH", end: "AIT BACH" },
+                    { id: 2, section: "B", start: "AIT BACHI", end: "AMHRI" },
+                    { id: 3, section: "C", start: "AMHRY", end: "BAHNINE" },
+                    { id: 4, section: "D", start: "BAHNINI", end: "BILLA" },
+                    { id: 5, section: "E", start: "BILLAA", end: "BOUSSOUSS" },
+                    { id: 6, section: "F", start: "BOUSSOUSSE", end: "EDDARAI" },
+                    { id: 7, section: "G", start: "EDDARAY", end: "EL MANSOURI" },
+                    { id: 8, section: "H", start: "EL MANSOURY", end: "ELOUARDI" },
+                    { id: 9, section: "I", start: "ELOUARDY", end: "HALLAL" },
+                    { id: 10, section: "J", start: "HALLALI", end: "JELAIDI" },
+                    { id: 11, section: "K", start: "JELAIDY", end: "LHADDANE" },
+                    { id: 12, section: "L", start: "LHADDANI", end: "OUAHMANE" },
+                    { id: 13, section: "M", start: "OUAHMANI", end: "SAAID" },
+                    { id: 14, section: "N", start: "SAAIDI", end: "ZYOUGUAY" }
+
+                ]
+            },
+            {
+
+                id: 9,
+                name: "السداسي الثالث : مسلك القانون العام - جذع مشترك (اللغة الفرنسية) 2026/2027",
+                boundes: [
+                    { id: 1, section: "Fr-A", start: "AABID", end: "EL KARZABI" },
+                    { id: 2, section: "Fr-B", start: "EL KARZABY", end: "ZOUINE" }
+                ]
             }
+
         ]
     },
     {
