@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 export default function ContactDialog() {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     const whatsappNumber = "212674180102"; // Replace with your WhatsApp number (without +)
     const defaultMessage = encodeURIComponent(
