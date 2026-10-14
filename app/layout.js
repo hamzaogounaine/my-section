@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next"
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { Dialog } from "@/components/ui/dialog";
+import ContactDialog from "./ContactDialog";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,6 +40,7 @@ export default function RootLayout({ children }) {
         <Footer />
         <Analytics />
         <GoogleAnalytics gaId="G-1TGVNRK6Q3" />
+        <ContactDialog />
       </body>
     </html>
   );
