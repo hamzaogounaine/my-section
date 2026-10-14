@@ -116,8 +116,8 @@ const PageComponent = ({ fac }) => {
                                 }
                             }}
                             className={`group relative flex items-center justify-center p-6 rounded-2xl border transition-all text-center select-none ${hasBounds
-                                    ? "bg-white border-slate-200/80 shadow-xs hover:border-blue-400 hover:shadow-md hover:-translate-y-0.5 cursor-pointer"
-                                    : "bg-slate-100/60 border-dashed border-slate-200 opacity-80 cursor-not-allowed"
+                                ? "bg-white border-slate-200/80 shadow-xs hover:border-blue-400 hover:shadow-md hover:-translate-y-0.5 cursor-pointer"
+                                : "bg-slate-100/60 border-dashed border-slate-200 opacity-80 cursor-not-allowed"
                                 }`}
                         >
                             <div className="flex items-center gap-3">
@@ -209,7 +209,7 @@ const PageComponent = ({ fac }) => {
                                             type="text"
                                             name="name"
                                             value={lastName}
-                                            placeholder="مثال: LAKTAL, OUAZIZ..."
+                                            placeholder="مثال: OGOUNAINE, OUAZIZ..."
                                             autoFocus
                                             required
                                             onChange={(e) => setLastName(e.target.value)}
