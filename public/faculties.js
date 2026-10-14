@@ -11,7 +11,7 @@ const faculties = [
                 name: "GESTION S3 2026/2027",
                 boundes: [
                     { id: 1, section: "A", start: "AABA", end: "AZNAGUE" },
-                    { id: 2, section: "B", start: "AZNAGY", end: "AZNAGY" },
+                    { id: 2, section: "B", start: "AZNAGY", end: "CHAJIA" },
                     { id: 3, section: "C", start: "CHAJIAI", end: "ELHARROUCHI" },
                     { id: 4, section: "D", start: "ELHAROUCHY", end: "JALLAL" },
                     { id: 5, section: "E", start: "JALLALI", end: "OUAKERRI" },
