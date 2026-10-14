@@ -11,7 +11,7 @@ const HomePage = () => {
                 <div className="container mx-auto max-w-4xl px-4 text-center">
                     <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3.5 py-1 text-xs font-semibold text-primary mb-6 shadow-2xs">
                         <Sparkles className="h-3.5 w-3.5 text-primary" />
-                        <span>الموسم الجامعي الجديد • جامعة ابن زهر</span>
+                        <span>الموسم الدراسي 2026/2027 جامعة ابن زهر</span>
                     </div>
 
                     <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl md:text-6xl leading-[1.2]">

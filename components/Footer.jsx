@@ -62,6 +62,12 @@ const Footer = () => {
                         Hamza Ogounaine
                     </button>
                 </div>
+                <div>
+                    <p className="text-sm text-destructive">
+                        ملاحظة :
+                        هذا الموقع مستقل و لا يتبع لجامعة ابن زهر .
+                    </p>
+                </div>
             </div>
 
             {/* Profile & Social Modal */}
