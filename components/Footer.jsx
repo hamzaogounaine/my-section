@@ -27,14 +27,14 @@ const socialLinks = [
         color: "hover:border-[#E4405F]/40 hover:bg-[#E4405F]/5",
         badge: "متابعة",
     },
-    {
-        name: "WhatsApp",
-        label: "WhatsApp Chat",
-        href: "https://wa.me/+212674180102",
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-        color: "hover:border-[#25D366]/40 hover:bg-[#25D366]/5",
-        badge: "مراسلة مباشرة",
-    },
+    // {
+    //     name: "WhatsApp",
+    //     label: "WhatsApp Chat",
+    //     href: "https://wa.me/+212674180102",
+    //     image: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    //     color: "hover:border-[#25D366]/40 hover:bg-[#25D366]/5",
+    //     badge: "مراسلة مباشرة",
+    // },
 ];
 
 const Footer = () => {
