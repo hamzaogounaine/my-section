@@ -169,11 +169,12 @@ const normalize = (str) =>
             .trim()
             .normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
-            .replace(/\s+/g, "")
+            .replace(/\s+/g, " ")
             .toUpperCase()
         : "";
 
 const determineSection = (facId, classId, lastName) => {
+
     if (!lastName) return null;
     const name = normalize(lastName);
 
@@ -183,17 +184,25 @@ const determineSection = (facId, classId, lastName) => {
 
     if (!intervals || intervals.length === 0) return null;
 
-    // A name belongs to the first section whose upper ceiling (`end`)
-    // is greater than or equal to the name.
     for (let i = 0; i < intervals.length; i++) {
-        const currentEnd = normalize(intervals[i].end);
+        const start = normalize(intervals[i].start);
+        const end = normalize(intervals[i].end);
 
-        if (name <= currentEnd) {
+        // A name belongs to this section if:
+        // 1. It is lexicographically <= end, OR
+        // 2. It starts with the boundary token itself (e.g. "AZNAGUE" matches "AZNAGUE")
+        if (name <= end || name.startsWith(end)) {
+            // Check that it doesn't precede the entire range
+            if (i === 0 && name < start && !name.startsWith(start)) {
+                return intervals[0].section;
+            }
             return intervals[i].section;
         }
     }
 
-    // If beyond the last listed end, falls into the final section
+    // Default to the last section if beyond all ceilings
     return intervals[intervals.length - 1].section;
 };
+
+
 export { faculties, determineSection };
