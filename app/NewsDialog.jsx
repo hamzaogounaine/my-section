@@ -24,7 +24,7 @@ export default function NewsDialog() {
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogContent
-                className="w-full max-w-md overflow-hidden rounded-3xl border border-slate-200/90 bg-white p-6 sm:p-8 shadow-xl outline-none"
+                className="w-full max-w-md  overflow-hidden rounded-3xl border border-slate-200/90 bg-white p-6 sm:p-8 shadow-xl outline-none"
                 dir="rtl"
                 showCloseButton={false}
             >

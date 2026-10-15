@@ -144,19 +144,136 @@ const faculties = [
         classes: [
             {
                 id: 1,
-                name: "GESTION S3 2026/2027"
+                name: "S1 TC Gestion 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "ALZZ" },
+                    { id: 2, section: "Section 2", start: "AMAA", end: "CGZZ" },
+                    { id: 3, section: "Section 3", start: "CHAA", end: "EL Z" },
+                    { id: 4, section: "Section 4", start: "ELAA", end: "IWZZ" },
+                    { id: 5, section: "Section 5", start: "IXAA", end: "QAZZ" },
+                    { id: 6, section: "Section 6", start: "QBAA", end: "ZZZZ" }
+                ]
             },
             {
                 id: 2,
-                name: "ECONOMIE S3 2026/2027"
+                name: "S3 TC Gestion 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "BELA" },
+                    { id: 2, section: "Section 2", start: "BEMA", end: "EL Z" },
+                    { id: 3, section: "Section 3", start: "ELAA", end: "LAFZ" },
+                    { id: 4, section: "Section 4", start: "LAGA", end: "ZZZZ" }
+                ]
             },
             {
                 id: 3,
-                name: "GESTION S1 2026/2027"
+                name: "S5 CCA 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "CEZZ" },
+                    { id: 2, section: "Section 2", start: "CFAA", end: "IVZZ" },
+                    { id: 3, section: "Section 3", start: "IWAA", end: "ZZZZ" }
+                ]
             },
             {
                 id: 4,
-                name: "ECONOMIE S1 2026/2027"
+                name: "S5 CFA 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "DAZZ" },
+                    { id: 2, section: "Section 2", start: "DBAA", end: "IVZZ" },
+                    { id: 3, section: "Section 3", start: "IWAA", end: "ZZZZ" }
+                ]
+            },
+            {
+                id: 5,
+                name: "S5 MMO 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "EL G" },
+                    { id: 2, section: "Section 2", start: "EL H", end: "ZZZZ" }
+                ]
+            },
+            {
+                id: 6,
+                name: "S1 TC Économie 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "EL Z" },
+                    { id: 2, section: "Section 2", start: "ELAA", end: "ZZZZ" }
+                ]
+            },
+            {
+                id: 7,
+                name: "S3 TC Économie 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "EL Z" },
+                    { id: 2, section: "Section 2", start: "ELAA", end: "ZZZZ" }
+                ]
+            },
+            {
+                id: 8,
+                name: "S5 Économie Appliquée 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "ZZZZ" }
+                ]
+            },
+            {
+                id: 9,
+                name: "S5 Économétrie 2026/2027",
+                boundes: [
+                    { id: 1, section: "Section 1", start: "AAAA", end: "ZZZZ" }
+                ]
+            },
+            {
+
+                id: 10,
+                name: "السداسي الثالث : مسلك القانون الخاص - جذع مشترك 2026/2027",
+                boundes: [
+
+                    { id: 1, section: "1", start: "Aa", end: "Ak" },
+                    { id: 2, section: "2", start: "Al", end: "Be" },
+                    { id: 3, section: "3", start: "Bf", end: "Dz" },
+                    { id: 4, section: "4", start: "Ea", end: "El" },
+                    { id: 5, section: "5", start: "Em", end: "Hz" },
+                    { id: 6, section: "6", start: "Ia", end: "Lz" },
+                    { id: 7, section: "7", start: "Ma", end: "Oz" },
+                    { id: 8, section: "8", start: "Pa", end: "Zz" }
+
+                ]
+            },
+            {
+
+                id: 11,
+                name: "السداسي الثالث : مسلك القانون العام - جذع مشترك 2026/2027",
+                boundes: [
+                    { id: 1, section: "1", start: "Aa", end: "Dz" },
+                    { id: 2, section: "2", start: "Ea", end: "Zz" },
+                ]
+            },
+            {
+
+                id: 12,
+                name: "السداسي الأول : مسلك القانون الخاص - جذع مشترك 2026/2027",
+                boundes: [
+                    { id: 1, section: "1", start: "Aa", end: "Ad" },
+                    { id: 2, section: "2", start: "Ae", end: "Ak" },
+                    { id: 3, section: "3", start: "Ai", end: "An" },
+                    { id: 4, section: "4", start: "Ao", end: "Ba" },
+                    { id: 5, section: "5", start: "Bb", end: "Bh" },
+                    { id: 6, section: "6", start: "Bi", end: "Dz" },
+                    { id: 7, section: "7", start: "Ea", end: "El" },
+                    { id: 8, section: "8", start: "Em", end: "Hz" },
+                    { id: 9, section: "9", start: "Ia", end: "Lz" },
+                    { id: 10, section: "10", start: "Ma", end: "Oz" },
+                    { id: 11, section: "11", start: "Pa", end: "Ta" },
+                    { id: 12, section: "12", start: "Tb", end: "Zz" }
+
+                ]
+            },
+            {
+
+                id: 13,
+                name: "السداسي الأول : مسلك القانون العام - جذع مشترك 2026/2027",
+                boundes: [
+                    { id: 1, section: "1", start: "Aa", end: "Dz" },
+                    { id: 2, section: "2", start: "Ea", end: "Zz" }
+                ]
             }
         ]
     }
