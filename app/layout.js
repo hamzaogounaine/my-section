@@ -17,14 +17,27 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata = {
+//   title: "My section",
+//   description: "بحث عن فوجك الدراسي بسهولة في جامعة ابن زهر",
+//   icons: {
+//     icon: "/favicon.ico",
+//   },
+// };
+
 export const metadata = {
-  title: "My section",
-  description: "بحث عن فوجك الدراسي بسهولة في جامعة ابن زهر",
-  icons: {
-    icon: "/favicon.ico",
+  metadataBase: new URL('https://my-section.vercel.app'),
+  title: 'My Section | ابحث عن فوجك ومدرجك الدراسي',
+  description: 'اعثر على فوجك ومدرجك وجدول حصصك بكليات جامعة ابن زهر بنقرة واحدة.',
+  openGraph: {
+    title: 'My Section | ابحث عن فوجك ومدرجك الدراسي',
+    description: 'اعثر على فوجك ومدرجك وجدول حصصك بكليات جامعة ابن زهر بنقرة واحدة.',
+    url: 'https://my-section.vercel.app',
+    siteName: 'My Section',
+    locale: 'ar_MA',
+    type: 'website',
   },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html
